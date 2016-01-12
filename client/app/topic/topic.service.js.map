@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "topic.service.js",
+  "sourceRoot": "",
+  "sources": [
+    "topic.service.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;;AAAA"
+}

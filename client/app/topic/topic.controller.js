@@ -1,14 +1,24 @@
 'use strict';
 
+
+
+
+
 angular.module('debateTableApp')
-    .controller('TopicCtrl', function ($scope, $http) {
-        //$scope.message = 'Hello';
+    .controller('TopicCtrl', function ($scope, $http, Topic) {
+        $scope.message = 'Hello';
 
-        self = this;
+        console.log("fuck");
 
-        $http.get('/api/topics')
-            .then( (response) => {
-                $scope.topics = response.data
-            })
+        console.log( Topic );
+
+        $scope.topics = Topic.query()
+
+        //self = this;
+        //
+        //$http.get('/api/topics')
+        //    .then( (response) => {
+        //        $scope.topics = response.data
+        //    })
 
 });

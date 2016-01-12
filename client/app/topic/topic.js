@@ -9,3 +9,18 @@ angular.module('debateTableApp')
         controller: 'TopicCtrl'
       });
   });
+
+
+//angular.module('debateTableApp.auth').factory('Topic', function($resource) {
+//
+//
+//    return $resource('/api/topics/:id', {
+//        id: '@_id'
+//
+//    }, {
+//
+//        update: {
+//            method: "PUT"
+//        }
+//    });
+//});

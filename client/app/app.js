@@ -13,7 +13,7 @@ angular.module('debateTableApp', [
 ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
-      .otherwise('/');
+      //.otherwise('/');
 
     $locationProvider.html5Mode(true);
   });

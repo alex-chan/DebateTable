@@ -1,6 +1,8 @@
 <div>This is the topic view.</div>
+{{ topics }}
+{{ topic }}
 
 <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="topic in topics">
 
-  <li><a href="#" tooltip="{{topic.title}}">{{topic.title}}</a></li>
+  <li><a href="/topics/{{ topic._id }}" tooltip="{{topic.title}}">{{topic.title}}</a></li>
 </ul>
